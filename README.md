@@ -1,56 +1,172 @@
-# Welcome to your Expo app 👋
+# 🌿 Hitha App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Hitha App is a cross-platform mobile application developed using React Native and Expo. The application helps users track their daily moods, maintain a personal diary, set wellness goals, and receive AI-powered emotional support.
 
-## Get started
+## 📱 Features
 
-1. Install dependencies
+### 😊 Mood Tracking
 
-   ```bash
-   npm install
-   ```
+* Record daily moods
+* View mood history
+* Track emotional well-being over time
+* Mood analytics and insights
 
-2. Start the app
+### 📖 Personal Diary
 
-   ```bash
-   npx expo start
-   ```
+* Create diary entries
+* Categorize entries
+* Review past experiences
+* Secure personal journaling
 
-In the output, you'll find options to open the app in a
+### 🤖 AI Emotional Support Chat
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* AI-powered chatbot
+* Emotional guidance and support
+* Safety monitoring for sensitive conversations
+* Multiple AI provider support (Gemini / ChatGPT)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 🎯 Wellness Goals
 
-## Get a fresh project
+* Create personal goals
+* Track goal completion
+* Monitor progress
 
-When you're ready, run:
+### 🔐 Authentication & Security
+
+* User registration and login
+* PIN protection
+* Secure local storage
+* Privacy-focused design
+
+### 👤 User Profile
+
+* Profile management
+* AI configuration settings
+* Security settings
+* Data management
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+* React Native
+* Expo
+* TypeScript
+* Expo Router
+
+### UI Components
+
+* Lucide React Native
+* React Native SVG
+* Expo Image
+
+### Storage & Security
+
+* AsyncStorage
+* Expo Secure Store
+
+### AI Integration
+
+* Google Gemini API
+* OpenAI ChatGPT API
+
+---
+
+## 📂 Project Structure
 
 ```bash
-npm run reset-project
+src/
+│
+├── app/
+│   ├── (auth)/
+│   │   ├── login.tsx
+│   │   └── register.tsx
+│   │
+│   ├── (tabs)/
+│   │   ├── index.tsx
+│   │   ├── chat.tsx
+│   │   ├── diary.tsx
+│   │   └── profile.tsx
+│   │
+│   └── diary-detail.tsx
+│
+├── context/
+├── services/
+├── constants/
+└── components/
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-### Other setup steps
+## 🚀 Installation
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### Clone Repository
 
-## Learn more
+```bash
+git clone https://github.com/your-username/hitha-app.git
+cd hitha-app
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### Install Dependencies
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm install
+```
 
-## Join the community
+### Run Application
 
-Join our community of developers creating universal apps.
+```bash
+npx expo start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Android
+
+```bash
+npm run android
+```
+
+### iOS
+
+```bash
+npm run ios
+```
+
+### Web
+
+```bash
+npm run web
+```
+
+---
+
+## 📸 Screens
+
+* Login Screen
+* Registration Screen
+* Dashboard
+* Mood Tracker
+* Diary Management
+* AI Chat Assistant
+* Profile & Security Settings
+
+---
+
+## 🎓 Academic Project
+
+This project was developed as part of the **ITS 2127 – Advanced Mobile Developer (AMD)** module.
+
+### Student
+
+**Malindi Rathnayaka**
+
+### Project Title
+
+**Hitha App – AI Powered Mental Health and Mood Tracking Mobile Application**
+
+---
+
+## 📄 License
+
+This project is developed for educational and academic purposes.
