@@ -99,7 +99,7 @@ export default function DashboardScreen() {
       <View style={[styles.header, { borderColor: colors.border }]}>
         <View>
           <Text style={[styles.greeting, { color: colors.textSecondary }]}>Hello, {user?.name || 'Friend'}</Text>
-          <Text style={[styles.tagline, { color: colors.text }]}>Let's find your center.</Text>
+          <Text style={[styles.tagline, { color: colors.text }]}>{"Let's find your center."}</Text>
         </View>
         <TouchableOpacity 
           style={[styles.chatShortcut, { backgroundColor: colors.primary }]}
